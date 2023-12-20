@@ -30,6 +30,8 @@ class stat(BaseModel):
 @app.get("/", response_class=HTMLResponse)
 def read_root(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
+
+
 @app.get("/estadisticas", response_class=JSONResponse)
 def estadisticas()->List[stat]:
     db = Session()
