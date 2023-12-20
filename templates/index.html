@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<meta name='robots' content='index,follow'>
+<meta name='description' content='descripcion'>
+<link rel="stylesheet" href="/templates/styles.css">
+<title>text</title>
+</head>
+<body>
+    <form action="http://localhost:8000/vocacional" method="post">
+        <!-- Pregunta 1 -->
+        <label for="nombre">1. Ingresa tu nombre:</label>
+        <input type="text" name="nombre" required>
+    
+        <!-- Pregunta 2 -->
+        <label for="correo">2. Ingresa tu correo:</label>
+        <input type="email" name="correo" required>
+    
+        <!-- Pregunta 3 -->
+        <label class="pregunta" for="habilidades">3. ¿Qué tan cómodo te sientes trabajando en un ambiente altamente estructurado y organizado?</label>
+        <select name="pregunta1" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <!-- Pregunta 4 -->
+        <label class="pregunta" for="motivacion">4. ¿Qué nivel de creatividad buscas expresar en tu trabajo diario?</label>
+        <select name="pregunta2" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <!-- Pregunta 5 -->
+        <label class="pregunta" for="tipoTrabajo">5. ¿Qué tan dispuesto estás a asumir riesgos y enfrentar desafíos en tu carrera?</label>
+        <select name="pregunta3" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <!-- Pregunta 6 -->
+        <label class="pregunta" for="ambienteLaboral">6. ¿Cuánto valoras la interacción social y el trabajo en equipo en un entorno laboral?</label>
+        <select name="pregunta4" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <!-- Pregunta 7 -->
+        <label class="pregunta" for="tipoPersonas">7. ¿Qué nivel de importancia le das a la estabilidad laboral y financiera en tu elección de carrera?</label>
+        <select name="pregunta5" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <!-- Pregunta 8 -->
+        <label class="pregunta" for="aspiracionSalarial">8. ¿Qué tan interesado estás en el uso de tecnologías y herramientas avanzadas en tu trabajo?</label>
+        <select name="pregunta6" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <!-- Pregunta 9 -->
+        <label class="pregunta" for="disponibilidadHoraria">9. ¿Cuánto te motiva la posibilidad de aprender constantemente y adquirir nuevas habilidades?</label>
+        <select name="pregunta7" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <!-- Pregunta 10 -->
+        <label class="pregunta" for="beneficiosLaborales">10. ¿Qué tan cómodo te sientes liderando y tomando decisiones importantes?</label>
+        <select name="pregunta8" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <!-- Pregunta 11 -->
+        <label class="pregunta" for="experienciaLaboral">11. ¿Cuánto disfrutas del trabajo práctico y la resolución de problemas concretos?</label>
+        <select  name="pregunta9" required>
+          <option value="1">1 - Mínimo</option>
+          <option value="2">2 - Bajo</option>
+          <option value="3">3 - Moderado</option>
+          <option value="4">4 - Alto</option>
+          <option value="5">5 - Máximo</option>
+        </select>
+    
+        <button type="submit" value="Enviar Respuestas">Enviar</button>
+      </form>
+</body>
+</html>
